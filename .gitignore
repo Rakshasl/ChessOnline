@@ -1,3 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Compiled source #
 ###################
 *.com
@@ -12,6 +17,9 @@
 ############
 # it's better to unpack these files and commit the raw source
 # git has its own built in compression methods
+.Python
+env/
+build/
 *.7z
 *.dmg
 *.gz
@@ -20,10 +28,22 @@
 #*.tar
 *.zip
 
+
+# Flask stuff:
+instance/
+.webassets-cache
+
 # Logs and databases #
 ######################
 *.log
 *.sqlite
+
+## pyenv
+.python-version
+
+# virtualenv
+venv/
+ENV/
 
 # OS generated files #
 ######################
